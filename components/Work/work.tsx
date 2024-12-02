@@ -37,7 +37,7 @@ const ServicesSection: React.FC = () => {
                 create apps that not only look great but also perform flawlessly
                 across iOS and Android. Our approach ensures your app stands out
                 in a crowded marketplace, driving growth and user loyalty with
-                every interaction. From initial concept to final launch, we're
+                every interaction. From initial concept to final launch, we&apos;re
                 with you every step of the way, making sure your mobile app
                 exceeds expectations.
               </span>
@@ -59,10 +59,10 @@ const ServicesSection: React.FC = () => {
                 seamless, robust, and scalable solutions tailored to your unique
                 business needs. We leverage the latest technologies to build web
                 applications that offer engaging user experiences, streamline
-                operations, and drive business growth. Whether you're looking to
+                operations, and drive business growth. Whether you&apos;re looking to
                 improve customer engagement or optimize internal processes, our
                 team delivers solutions that combine functionality with
-                exceptional design, ensuring your web app meets today's high
+                exceptional design, ensuring your web app meets today&apos;s high
                 standards for performance and usability.
               </span>
             </div>
