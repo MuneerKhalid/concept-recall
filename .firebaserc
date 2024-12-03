@@ -1,5 +1,7 @@
 {
   "projects": {
     "default": "concept-recall-329e0"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
