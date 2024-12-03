@@ -1,6 +1,7 @@
+import StatsSection from '@/components/Achievments/Achievment'
 import HeroSection from '@/components/Hero/hero'
 import Navbar from '@/components/Navbar/Navbar'
-import ServicesSection from '@/components/Work/work'
+import ServicesSection from '@/components/Service/service'
 import React from 'react'
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
     <Navbar />
     <HeroSection />
     <ServicesSection />
+    <StatsSection />
     </>
   )
 }
