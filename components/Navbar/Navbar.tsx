@@ -16,7 +16,7 @@ const Navbar = () => {
         />
         <div>
           <div className="text-lg font-light leading-tight tracking-widest">
-            concept<span className="text-orange-500">rall</span>
+            concept<span className="text-orange-500">recall</span>
           </div>
           <div className="text-[8px] text-gray-400">beyond imagination</div>
         </div>
