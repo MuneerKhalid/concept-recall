@@ -1,9 +1,9 @@
 import AboutUs from '@/components/AboutUs/AboutUs'
 import StatsSection from '@/components/Achievments/Achievment'
-import CaseStudyCarousel from '@/components/Carousel/Carousel'
-import { CarouselPlugin } from '@/components/Carousel/CarouselPlugin'
+import Carousel from '@/components/Carousel/Carousel'
 import IndustriesSection from '@/components/Expertise/Expertise'
 import HeroSection from '@/components/Hero/hero'
+import ClientSlider from '@/components/InfiniteSlider/InfiniteSlider'
 import Navbar from '@/components/Navbar/Navbar'
 import ServicesSection from '@/components/Service/service'
 import React from 'react'
@@ -17,7 +17,8 @@ const page = () => {
     <StatsSection />
     <AboutUs />
     <IndustriesSection />
-    <CaseStudyCarousel/>
+    <Carousel/>
+    <ClientSlider />
     </>
   )
 }
