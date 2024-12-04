@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";  // Import the Link component
 import Links from "./Links";
+import Image from "next/image";
 
 interface MobileMenuProps {
   onClose: () => void;
@@ -35,10 +36,12 @@ const MobileMenu = ({ onClose }: MobileMenuProps) => {
         
         {/* Logo and Company Name */}
         <div className="flex  items-center md:items-start space-y-4">
-          <img
+          <Image
             src="/logo/globe.png"
             alt="Company Logo"
             className="h-16 md:h-12"
+            width={40}
+            height={40}
           />
           <span className="text-2xl font-bold">Concept Recall</span>
         </div>

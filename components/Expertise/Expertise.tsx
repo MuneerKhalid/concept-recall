@@ -60,7 +60,7 @@ const IndustriesSection: React.FC = () => {
         {/* Heading */}
         <div className="max-sm:w-2/3 mx-auto mb-10 max-sm:mb-6 text-center">
           <h3 className="font-raleway text-xl font-bold bg-gradient-to-r from-orange-500 to-yellow-500 text-transparent bg-clip-text">
-            Industries we've <span>excelled in</span>
+            Industries we&apos;ve <span>excelled in</span>
           </h3>
           <p className="text-gray-600 mt-3 px-6 max-md:px-3">
             Our services are tailor-made and we are always striving to surpass your wildest expectations!
