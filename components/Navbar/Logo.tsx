@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="flex items-center space-x-2">
       <Image
-        src="/logo/globe.png"
+        src="/globe.png"
         alt="Concept Recall Logo"
         width={40}
         height={40}

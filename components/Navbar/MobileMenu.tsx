@@ -37,7 +37,7 @@ const MobileMenu = ({ onClose }: MobileMenuProps) => {
         {/* Logo and Company Name */}
         <div className="flex  items-center md:items-start space-y-4">
           <Image
-            src="/logo/globe.png"
+            src="/globe.png"
             alt="Company Logo"
             className="h-16 md:h-12"
             width={40}

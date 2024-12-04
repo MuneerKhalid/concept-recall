@@ -8,7 +8,7 @@ const ContactButtons = () => {
       <Link href="#" aria-label="WhatsApp">
         <div className="p-2 hover:bg-gray-700">
           <Image
-            src="/logo/whatsapp.png"
+            src="/whatsapp.png"
             alt="WhatsApp"
             width={24}
             height={24}
@@ -19,7 +19,7 @@ const ContactButtons = () => {
       <Link href="#" aria-label="Call">
         <div className="p-2 hover:bg-gray-700">
           <Image
-            src="/logo/phone.png"
+            src="/phone.png"
             alt="Call"
             width={24}
             height={24}

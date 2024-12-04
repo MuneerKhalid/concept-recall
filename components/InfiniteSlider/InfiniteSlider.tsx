@@ -10,12 +10,12 @@ interface Client {
 }
 
 const clients: Client[] = [
-  { id: 1, src: "/logo/client1.webp", alt: "Client 1" },
-  { id: 2, src: "/logo/client2.webp", alt: "Client 2" },
-  { id: 3, src: "/logo/client3.webp", alt: "Client 3" },
-  { id: 4, src: "/logo/client4.webp", alt: "Client 4" },
-  { id: 5, src: "/logo/client5.webp", alt: "Client 5" },
-  { id: 6, src: "/logo/client6.webp", alt: "Client 6" },
+  { id: 1, src: "/client1.webp", alt: "Client 1" },
+  { id: 2, src: "/client2.webp", alt: "Client 2" },
+  { id: 3, src: "/client3.webp", alt: "Client 3" },
+  { id: 4, src: "/client4.webp", alt: "Client 4" },
+  { id: 5, src: "/client5.webp", alt: "Client 5" },
+  { id: 6, src: "/client6.webp", alt: "Client 6" },
 ];
 
 const ClientSlider: React.FC = () => {

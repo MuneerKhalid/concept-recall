@@ -6,7 +6,7 @@ const IndustriesSection: React.FC = () => {
   const industries = [
     {
       href: "/industries/education",
-      imgSrc: "/logo/5.png",
+      imgSrc: "/5.png",
       alt: "Education Solution",
       title: "Education Solution",
       description:
@@ -14,7 +14,7 @@ const IndustriesSection: React.FC = () => {
     },
     {
       href: "/industries/firearms-dealers-branding-services",
-      imgSrc: "/logo/5.png",
+      imgSrc: "/5.png",
       alt: "Licensed Firearms Dealers",
       title: "Licensed Firearms Dealers",
       description:
@@ -22,7 +22,7 @@ const IndustriesSection: React.FC = () => {
     },
     {
       href: "/industries/medical",
-      imgSrc: "/logo/6.png",
+      imgSrc: "/6.png",
       alt: "Medical Solution",
       title: "Medical Solution",
       description:
@@ -30,7 +30,7 @@ const IndustriesSection: React.FC = () => {
     },
     {
       href: "/industries/rental",
-      imgSrc: "/logo/7.png",
+      imgSrc: "/7.png",
       alt: "Rental",
       title: "Rental",
       description:
@@ -38,7 +38,7 @@ const IndustriesSection: React.FC = () => {
     },
     {
       href: "/industries/automotive",
-      imgSrc: "/logo/8.png",
+      imgSrc: "/8.png",
       alt: "Automotive",
       title: "Automotive",
       description:
@@ -46,7 +46,7 @@ const IndustriesSection: React.FC = () => {
     },
     {
       href: "/industries/ecommerce",
-      imgSrc: "/logo/9.png",
+      imgSrc: "/9.png",
       alt: "E-Commerce",
       title: "E-Commerce",
       description:
@@ -55,7 +55,7 @@ const IndustriesSection: React.FC = () => {
   ];
 
   return (
-    <section className="dark:bg-light-black bg-black px-5">
+    <section className="dark:bg-light-black bg-[rgb(29,29,29)] bg-opacity-100 px-5">
       <div className="section-container py-16 max-md:py-6">
         {/* Heading */}
         <div className="max-sm:w-2/3 mx-auto mb-10 max-sm:mb-6 text-center">
@@ -71,7 +71,7 @@ const IndustriesSection: React.FC = () => {
         <div className="grid grid-cols-3 max-sm:grid-cols-1 max-lg:grid-cols-2 gap-6 mb-10 max-sm:mb-6 mx-auto md:mx-40 ">
           {industries.map((industry, index) => (
             <Link href={industry.href} key={index} className="industry-card">
-              <div className="rounded-xl shadow-lg hover:shadow-xl p-4 dark:bg-gray-800 transition duration-300 bg-[rgb(29,29,29)] bg-opacity-100 overflow-hidden  h-full w-full">
+              <div className="rounded-xl shadow-lg hover:shadow-xl p-4 dark:bg-gray-800 transition duration-300 bg-black overflow-hidden  h-full w-full">
                 <Image
                   src={industry.imgSrc}
                   alt={industry.alt}

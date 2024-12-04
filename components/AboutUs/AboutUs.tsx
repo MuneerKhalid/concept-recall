@@ -33,7 +33,7 @@ const AboutUsSection: React.FC = () => {
                 <div className="absolute inset-0 flex justify-center items-center">
                   <button className="w-16 h-16 bg-gray-900 bg-opacity-50 rounded-full flex justify-center items-center">
                     <Image
-                      src="/logo/play.svg"
+                      src="/play.svg"
                       alt="Play Button"
                       width={80}
                       height={80}
